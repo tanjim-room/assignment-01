@@ -149,6 +149,7 @@
     color: rgb(13, 19, 33);
     text-align: center;
     cursor: pointer;
+    
 }
 
 .web-part-right{
@@ -208,7 +209,7 @@
     font-size: 16px;
     font-weight: 400;
     color: rgb(13, 19, 33);
-    padding: 20px 200px;
+    padding: 20px 80px;
     line-height: 24px;
 }
 
@@ -433,7 +434,7 @@
     cursor: pointer;
  }
  
- .footer-section{
+ #footer-section{
     border-radius: 16px 16px 0px 0px;
     background: rgba(13, 19, 33, 0.03);
     padding: 0px 120px;
@@ -447,4 +448,14 @@
     margin: 0px auto;;
     text-align: center;
     padding: 20px 0px;
+}
+
+.footer-text{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.social-icon{
+    display: flex;
+    gap: 25px;
 }

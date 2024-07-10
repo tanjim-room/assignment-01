@@ -148,6 +148,7 @@
     font-weight: 500;
     color: rgb(13, 19, 33);
     text-align: center;
+    cursor: pointer;
 }
 
 .web-part-right{
@@ -407,7 +408,7 @@
     margin-top: 50px;
 }
 .feedback input{
-   padding: 20px;
+   padding: 17px 20px;
    border: 1px solid rgba(13, 19, 33, 0.15);
    background-color: white;
    border-radius: 8px;
@@ -432,3 +433,18 @@
     cursor: pointer;
  }
  
+ .footer-section{
+    border-radius: 16px 16px 0px 0px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 0px 120px;
+    margin-bottom: 0px;
+}
+.footer-content{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;;
+    text-align: center;
+    padding: 20px 0px;
+}
